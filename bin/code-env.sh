@@ -24,12 +24,6 @@ brew install htop
 # iac
 brew install terraform 
 
-# https://github.com/asdf-community/asdf-python
-asdf plugin-add python
-export ASDF_PYTHON_PATCH_URL="https://github.com/python/cpython/commit/8ea6353.patch?full_index=1"
-asdf install python 3.6.12
-asdf global python 3.6.2 2.7.13
-
 # go https://github.com/kennyp/asdf-golang
 asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
 asdf reshim golang
